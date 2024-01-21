@@ -4,3 +4,4 @@ stats.csv
 
 dist
 tsconfig.tsbuildinfo
+src/csv/inherit/.editorconfig
