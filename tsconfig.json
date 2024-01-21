@@ -4,19 +4,19 @@
     "lib": ["dom", "dom.iterable", "ESNext"],
     "target": "ESNext",
     "module": "ESNext",
-    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */                               /* Specify what module code is generated. */
-    "rootDir": "./src",                                  /* Specify the root folder within your source files. */                              /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
-    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
-    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */ /* Specify what module code is generated. */,
+    "rootDir": "./src" /* Specify the root folder within your source files. */ /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */,
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
     "baseUrl": "./src",
     "paths": {
       "@*": ["./*"]
     },
-    "noResolve": false,                       /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "noResolve": false /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
 
     /* Type Checking */
-    "strict": true,                                      /* Enable all strict type-checking options. */
+    "strict": true /* Enable all strict type-checking options. */,
     "noResolve": false,
     "skipLibCheck": true,
     "jsx": "preserve",
@@ -24,8 +24,8 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     // "allowSyntheticDefaultImports": true,
-    "strict": true,                   /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "strict": true /* Skip type checking .d.ts files that are included with TypeScript. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "tsc-alias": {
     "verbose": false,
