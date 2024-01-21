@@ -1,7 +1,6 @@
 import fs from 'fs'
 import { ENCODING } from '@config'
 import { VARS } from '@enums'
-import { dateParse } from '@utils'
 
 type MatchData = [Date, string, string, number, number, VARS, string]
 
@@ -13,7 +12,7 @@ class CSVFileReader {
   read(): void {
     this.data = fs
       .readFileSync(this.filename, {
-        encoding: ENCODING.matchesCSV as BufferEncoding,
+        encoding: ENCODING.UTF8 as BufferEncoding,
       })
       .split('\n')
       .map((row: string): string[] => {
