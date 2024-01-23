@@ -1,2 +1,2 @@
 export { default as dateParse } from '@utils/date-parse'
-export { default as Logger } from '@utils/logger'
+export { default as logger } from '@utils/logger'
