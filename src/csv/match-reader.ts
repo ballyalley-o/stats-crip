@@ -1,9 +1,13 @@
 import { IDataReader } from '@interfaces'
+import { CSVFileReader } from '@csv'
 import { dateParse } from '@utils'
 import { MatchData } from '@types'
 import { VARS } from '@enums'
 
 class MatchReader {
+  static fromCSV(filename: string) {
+    return new MatchReader(new CSVFileReader(filename))
+  }
   matches: MatchData[] = []
   constructor(public read: IDataReader) {
     this.read = read
